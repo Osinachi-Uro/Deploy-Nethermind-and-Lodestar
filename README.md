@@ -35,6 +35,12 @@ This repo is just me chronicling my attempt at deploying both blockchain clients
 
 * ```git clone https://github.com/ChainSafe/lodestar-quickstart.git```
 * ```cd lodestar-quickstart```
+  
+* I chose to run the node on the sepolia network, so I had to edit the sepolia.vars file and inserted the jwtsecret code as shown
+
+  <img width="937" alt="neth jwtsecret edit" src="https://github.com/Osinachi-Uro/Deploy-Nethermind-and-Lodestar/assets/83463641/6673b2b3-953d-4f2d-86a3-45d911ed6b00">
+
+   
 * ```./setup.sh --dataDir --elClient nethermind --network sepolia --justCL --skipImagePull```
 * ```./setup.sh --dataDir sepolia-data --elClient nethermind --network sepolia --justCL --skipImagePull --detached```
 
