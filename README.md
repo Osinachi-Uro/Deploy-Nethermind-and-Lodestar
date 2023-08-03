@@ -49,8 +49,14 @@ This repo is just me chronicling my attempt at deploying both blockchain clients
 <img width="846" alt="Neth docker ps running" src="https://github.com/Osinachi-Uro/Deploy-Nethermind-and-Lodestar/assets/83463641/133c1615-922f-47f0-8341-aa9e25c25dcd">
 
 ## Step 4 - Run Nethermind (Execution Client)
-* ```Nethermind.Runner --config sepolia``` # I got an error that i could not immediately resolve, so i decided to document my progress and try again later.
+* ```Nethermind.Runner --config sepolia``` # I got an error that I could not immediately resolve, so i decided to document my progress and try again later.
+
 <img width="366" alt="Neth runner" src="https://github.com/Osinachi-Uro/Deploy-Nethermind-and-Lodestar/assets/83463641/064372d5-512f-4b89-ace5-209d60edecb5">
+
+* I found his command instead ```nethermind -c mainnet``` and it worked 🤔
+  
+  <img width="949" alt="Neth running" src="https://github.com/Osinachi-Uro/Deploy-Nethermind-and-Lodestar/assets/83463641/036c7110-b82d-48d1-ad7f-87cdaa8ac5a6">
+
 
 
 # References
@@ -58,3 +64,4 @@ This repo is just me chronicling my attempt at deploying both blockchain clients
   * https://hackmd.io/@philknows/rk5cDvKmK
   * https://docs.nethermind.io/nethermind/first-steps-with-nethermind/running-nethermind-post-merge
   * https://chainsafe.github.io/lodestar/install/docker/
+  * https://discoverdot.net/projects/nethermind
